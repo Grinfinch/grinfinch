@@ -1,0 +1,513 @@
+<!doctype html>
+
+<html lang="en fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grinfinch&nbsp;&nbsp;·&nbsp;&nbsp;Hiking across the Graian Alps</title>
+	<link rel="icon" href="res/favicon.png">
+	<meta name="author" content="Grinfinch">
+	<meta name="copyright" content="2025 © Grinfinch 3.5.0">
+	<meta name="description" content="Hiking across the Graian Alps">
+    <meta name="keywords" content="hiking graian alps">
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="flex-col flex-cro-c">
+    
+    <!-- Container -->
+    <div class="container flex-col flex-cro-c wdth-12">
+
+        <!-- Header -->
+        <header class="flex-col flex-cro-c wdth-12 wdth-sm-10 wdth-lg-8 pad-24 pad-md-48">
+            <div class="pos-r flex-col flex-cro-c wdth-12">
+                <div class="pos-a z-2 flex-col flex-pri-sb flex-cro-c wdth-12 hght-12">
+                    <!-- Navigation -->
+                    <nav class="flex-row flex-cro-c wdth-12 gap-16 gap-md-48 pad-24 pad-md-0 pad-md-t-48 pad-xl-t-96">
+                        <button class="btn-transparent"><a href="https://grinfin.ch"><img src="res/back.svg" alt="Back"></a></button>
+                        <!-- Content -->
+                        <div class="flex-row flex-cro-c wdth-12 gap-24">
+                            <img class="sm bd-transparent" src="res/author.jpg" alt="Author">
+                            <!-- Caption -->
+                            <div class="flex-no flex-md-col gap-8">
+                                <h3 class="ta-c ta-md-l"><i>Grinfinch</i></h3>
+                                <p class="sm ta-c ta-md-l"><i>Designer for a living, dirtbag in everyday life.<br>Sharing hiking & bikepacking stories.</i></p>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="flex-col flex-cro-s flex-md-row wdth-12 gap-48 pad-24 pad-md-0 pad-md-b-48 pad-xl-b-96">
+                        <!-- Buttons -->
+                        <button class="btn-transparent bounce"><a href="#context"><img src="res/down.svg" alt="Down"></a></button>
+                        <!-- Caption -->
+                        <div class="flex-col gap-16 gap-sm-24 gap-md-48">
+                            <h1 class="primary">Hiking across<br>the Graian Alps</h1>
+                            <p class="wdth-sm-8 wdth-xl-8 lg">August 2024&nbsp;&nbsp;·&nbsp;&nbsp;From the elderly village of l’Ecot, in the very end of the Haute Maurienne valley, to the vast pass of Mont Cenis, on the Italian side.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Figure -->
+                <div class="pos-a z-1 bg-gradient"></div>
+                <img class="bg-cover bd-dark bd-rd-24 of-hidden" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-007.jpg" alt="Hiking across the Graian Alps">
+            </div>
+        </header>
+
+        <!-- Context -->
+        <section id="context" class="flex-col flex-md-row flex-md-cro-s wdth-12 wdth-sm-10 wdth-md-12 wdth-xl-10 gap-xl-48 pad-sm-24">
+            <!-- Figure -->
+            <div class="flex-col flex-cro-c wdth-md-6 wdth-xl-8 gap-48 pad-tb-24 pad-sm-24 ord-2 ord-md-1">
+                <img class="bd-sm-dark bd-rd-sm-24" src="res/hikingacrossthegraianalps/france-alpesgraies-august-2024.jpg" alt="Route">
+                <a href="res/hikingacrossthegraianalps/france-alpesgraies-august-2022-2024.gpx" download="Hiking across the Graian Alps" target="blank"><button class="btn-primary"><img src="res/down.svg" alt="Download route"><p class="xl">Download&nbsp;route</p></button></a>
+            </div>
+            <!-- Caption -->
+            <div class="flex-col wdth-md-6 wdth-xl-4 ord-1 ord-md-2">
+                <!-- Tabs -->
+                <nav class="flex-row flex-md-row-w gap-8 pad-24 pad-md-t-48 of-auto">
+                    <button onclick="opentab(event, 'route')" class="tab btn-secondary" id="tab-default"><p class="xl">Route</p></button>
+                    <button onclick="opentab(event, 'gear')" class="tab btn-secondary"><p class="xl">Gear</p></button>
+                    <button onclick="opentab(event, 'environment')" class="tab btn-secondary"><p class="xl">Environment</p></button>
+                </nav>
+                <!-- Route -->
+                <div id="route" class="tab-content flex-col">
+                    <div class="flex-col gap-16 gap-md-24 pad-24">
+                        <p class="lg">To draw this route, I strived to follow the Alps divide, which is more or less the border as well. Often in the in between, I spent time to explore unmapped tracks I had assumptions about thanks to cartographic resources. Once there, most of them were well marked out. However, a few parts were very faded, abandoned or even forbidden. Made for hiking purposes, some passages were quite exposed and required little climbing skills and a solid sense of direction. I progressed southbound, though the route is doable on both directions. Note that the thiner route on the map was the one I first planed.</p>
+                    </div>
+                    <!-- Table -->
+                    <ul class="flex-col gap-16 pad-24">
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Duration</p>
+                            <p class="xs ta-r">4 days</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Distance</p>
+                            <p class="xs ta-r">70 km</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Elevation</p>
+                            <p class="xs ta-r">4850 m</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Altitude</p>
+                            <p class="xs ta-r">1740&nbsp;&nbsp;·&nbsp;&nbsp;3170 m</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Surface</p>
+                            <p class="xs ta-r">98% unpaved</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Waytype</p>
+                            <p class="xs ta-r">18% offtrack</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Gear -->
+                <div id="gear" class="tab-content flex-col">
+                    <div class="flex-col gap-16 gap-md-24 pad-24">
+                        <p class="lg">To achieve this route as fast and as light as I could in a self sufficient way, I had neither spare clothes nor spare food. However, I brought warm and waterproof clothing and sleeping gear to handle demanding terrain and an ever changing weather. Even in the driest season, water was everywhere enough to carry two liters only. At the lowest places, I filtered it. There are about two refuges a day and a few cabins along the route, but I only relied on the village of Bonneval sur Arc to restock, which was a little detour doable by hitchiking. Besides, I had a minimal cooking system in order to carry lighter food.</p>
+                    </div>
+                    <!-- Table -->
+                    <ul class="flex-col gap-16 pad-24">
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Gear weight</p>
+                            <p class="xs ta-r">8940 gr</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Backpack weight</p>
+                            <p class="xs ta-r">7360 gr</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Water capacity</p>
+                            <p class="xs ta-r">2 liters</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Food</p>
+                            <p class="xs ta-r">4 days</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Environment -->
+                <div id="environment" class="tab-content flex-col">
+                    <div class="flex-col gap-16 gap-md-24 pad-24">
+                        <p class="lg">This route took place in an alpine environment which was often hostile and very mineral. Clouds were obstructive, wind was strong, rain fell often and temperatures dropped down below zero at night. I crossed several sketchy snow areas and raging torrents, nothing that required any equipment though. In fact, most of the glaciers were bare, which was heart breaking to stare at. Wild camping wasn’t forbidden anywhere but within the Vanoise and the Gran Paradiso national parks. I didn’t care as I hid myself and left no trace. Late summer was the best and only season to cross the highest passes.</p>
+                    </div>
+                    <!-- Table -->
+                    <ul class="flex-col gap-16 pad-24">
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Location</p>
+                            <p class="xs ta-r">France<br>Italy</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Legislation</p>
+                            <p class="xs ta-r">Vanoise national park<br>Gran Paradiso national park</p>
+                        </li>
+                        <li class="divider bg-dark"></li>
+                        <li class="flex-row flex-pri-sb flex-cro-c gap-16">
+                            <p class="xs secondary">Season</p>
+                            <p class="xs ta-r">Late summer</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contents -->
+        <section class="flex-col flex-cro-c wdth-12 wdth-xl-10 gap-24 pad-tb-24 pad-sm-24 pad-md-48 pad-md-tb-96">
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">0&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">2030&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Torrent of the Arc</i></p>
+                </div>
+            </div>
+
+            <!-- 1 x V + 1 x H -->
+            <figure class="flex-col flex-md-row flex-cro-c flex-md-cro-e gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-5">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-002.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-7">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-001.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+            <!-- 1 x H + 1 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c flex-md-cro-s gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-7 gap-24">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-006.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-5 gap-24">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-003.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- 1 x T -->
+            <figure class="flex-col flex-cro-c wdth-12">
+                <div class="flex-col wdth-12 wdth-sm-9 wdth-md-6 gap-8 pad-24 pad-md-72">
+                    <p class="sm secondary"><i>Figure&nbsp;1&nbsp;&nbsp;·&nbsp;&nbsp;Stone bridge over the torrent of the Reculaz</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;2&nbsp;&nbsp;·&nbsp;&nbsp;Corrie of the Evettes</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;3&nbsp;&nbsp;·&nbsp;&nbsp;Lake of the Evettes beneath the Vanoise massif</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;4&nbsp;&nbsp;·&nbsp;&nbsp;Mount Séti, 3150 m</i></p>
+                </div>
+            </figure>
+
+            <!-- 1 x H -->
+            <figure class="flex-col flex-sm-cro-c">
+                <div class="flex-col wdth-sm-9 wdth-md-12">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-004.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-005.jpg" alt="Title">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-011.jpg" alt="Title">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-010.jpg" alt="Title">
+                </div>
+            </figure>
+
+            <!-- 1 x H -->
+            <figure class="flex-row flex-pri-c flex-md-pri-s">
+                <div class="flex-col wdth-sm-9 wdth-lg-8">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-007.jpg" alt="Title">
+                </div>
+            </figure>
+            <!-- 1 x H -->
+            <figure class="flex-row flex-pri-c flex-md-pri-e">
+                <div class="flex-col wdth-sm-9 wdth-lg-8 ord-1 ord-lg-2">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-013.jpg" alt="Title">
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">7&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">3170&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Pass of Bonneval</i></p>
+                </div>
+            </div>
+
+            <!-- 1 x V + 1 x H -->
+            <figure class="flex-col flex-md-row flex-cro-c flex-md-cro-e gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-5">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-009.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-7">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-008.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+            <!-- 1 x H + 1 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c flex-md-cro-s gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-7 gap-24">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-012.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-5 gap-24">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-023.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- 1 x T -->
+            <figure class="flex-col flex-cro-c wdth-12">
+                <div class="flex-col wdth-12 wdth-sm-9 wdth-md-6 gap-8 pad-24 pad-md-72">
+                    <p class="sm secondary"><i>Figure&nbsp;1&nbsp;&amp;&nbsp;2&nbsp;&nbsp;·&nbsp;&nbsp;Glacier of the Evettes</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;2&nbsp;&nbsp;·&nbsp;&nbsp;Mount Albaron, 3640 m</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;4&nbsp;&nbsp;·&nbsp;&nbsp;Needle of Mondrone, 2960 m</i></p>
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">14&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">1790&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Torrent of Sea</i></p>
+                </div>
+            </div>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-039.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-021.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-019.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">18&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">2750&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Pass of Sea</i></p>
+                </div>
+            </div>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-024.jpg" alt="Title">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-025.jpg" alt="Title">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-030.jpg" alt="Title">
+                </div>
+            </figure>
+
+            <!-- 1 x T -->
+            <figure class="flex-col flex-cro-c wdth-12">
+                <div class="flex-col wdth-12 wdth-sm-9 wdth-md-6 gap-8 pad-24 pad-md-72">
+                    <p class="sm secondary"><i>Figure&nbsp;1&nbsp;&amp;&nbsp;2&nbsp;&nbsp;·&nbsp;&nbsp;Stone ruins hidden into the alpine pasture of Sea</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;3&nbsp;&nbsp;·&nbsp;&nbsp;Pass of Sea, 2750 m</i></p>
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">22&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">1820&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Torrent of Ala</i></p>
+                </div>
+            </div>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-031.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-032.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-033.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- 1 x T -->
+            <figure class="flex-col flex-cro-c wdth-12">
+                <div class="flex-col wdth-12 wdth-sm-9 wdth-md-6 gap-8 pad-24 pad-md-72">
+                    <p class="sm secondary"><i>Figure&nbsp;1&nbsp;&amp;&nbsp;2&nbsp;&nbsp;·&nbsp;&nbsp;Needle of Ciamarella, 3680 m</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;3&nbsp;&nbsp;·&nbsp;&nbsp;Torrent of Ala</i></p>
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">32&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">2910&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Pass of Altare</i></p>
+                </div>
+            </div>
+
+            <!-- 1 x H -->
+            <figure class="flex-col flex-sm-cro-c">
+                <div class="flex-col wdth-sm-9 wdth-md-12">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-034.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-035.jpg" alt="Title">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-036.jpg" alt="Title">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-037.jpg" alt="Title">
+                </div>
+            </figure>
+
+            <!-- 1 x T -->
+            <figure class="flex-col flex-cro-c wdth-12">
+                <div class="flex-col wdth-12 wdth-sm-9 wdth-md-6 gap-8 pad-24 pad-md-72">
+                    <p class="sm secondary"><i>Figure&nbsp;1&nbsp;&amp;&nbsp;2&nbsp;&nbsp;·&nbsp;&nbsp;Needle of Ciamarella, 3680 m</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;3&nbsp;&nbsp;·&nbsp;&nbsp;Artificial lake of the Rossa</i></p>
+                    <p class="sm secondary"><i>Figure&nbsp;4&nbsp;&nbsp;·&nbsp;&nbsp;Mount Rocciamelone, 3540 m</i></p>
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">44&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">1800&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Lake Malciaussia</i></p>
+                </div>
+            </div>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-027.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-041.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-029.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">49&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">2560&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Pass Croce di Ferro</i></p>
+                </div>
+            </div>
+
+            <!-- 1 x H -->
+            <figure class="flex-col flex-sm-cro-c">
+                <div class="flex-col wdth-sm-9 wdth-md-12">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-043.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- 3 x V -->
+            <figure class="flex-col flex-md-row flex-cro-c gap-24">
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-b-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-014.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-96 pad-md-b-96">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-042.jpg" alt="Hiking across the Graian Alps">
+                </div>
+                <div class="flex-col wdth-sm-9 wdth-md-4 pad-md-t-192">
+                    <img class="bd-rd-sm-4" src="res/hikingacrossthegraianalps/france-alpesgraies-2024-august-016.jpg" alt="Hiking across the Graian Alps">
+                </div>
+            </figure>
+
+            <!-- Step -->
+            <div class="flex-row flex-cro-c wdth-12 wdth-sm-9 wdth-md-12 gap-24 pad-t-24 pad-lr-24 pad-sm-lr-0">
+                <div class="flex-row-w flex-cro-bl gap-y-16 gap-x-24">
+                    <div class="flex-row gap-8">
+                        <span class="bdg-secondary"><p class="xs">70&nbsp;km</p></span>
+                        <span class="bdg-secondary"><p class="xs">1950&nbsp;m</p></span>
+                    </div>
+                    <p class="xl"><i>Road D1006 towards the pass of the Mont Cenis</i></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="flex-col wdth-12 wdth-md-8 pad-24 pad-md-48">
+            <div class="divider bg-dark"></div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="flex-col flex-md-row flex-cro-c flex-md-pri-sb wdth-12 wdth-md-8 gap-48 pad-24 pad-b-48 pad-md-48 pad-md-b-96">
+            <div class="flex-col flex-md-row flex-cro-c gap-48">
+                <button class="btn-transparent bounce"><a href="#top"><img src="res/up.svg" alt="Up"></a></button>
+                <!-- Caption -->
+                <div class="flex-col flex-md-row flex-cro-c gap-16 gap-md-48">
+                    <p class="xs ta-c ta-md-l"><a href="https://www.instagram.com/grinfinch" target="blank" class="rol-primary trans">Instagram</a></p>
+                    <p class="xs ta-c ta-md-l"><a href="https://www.komoot.com/user/754271272765" target="blank" class="rol-primary trans">Komoot</a></p>
+                </div>
+            </div>
+            <p class="sm secondary ta-c ta-md-r"><i>2025&nbsp;&nbsp;©&nbsp;&nbsp;Grinfinch 3.5.0</i></p>
+        </footer>
+    </div>
+    
+    <!-- Tabs -->
+        
+    <script>
+        function opentab (evt, tabname) {
+          var section, tabcontent, tab;
+          tabcontent = document.getElementsByClassName("tab-content");
+          for (section= 0; section < tabcontent.length; section++) {
+            tabcontent[section].style.display = "none";
+          }
+          tab = document.getElementsByClassName("tab");
+          for (section= 0; section < tab.length; section++) {
+            tab[section].className = tab[section].className.replace(" btn-current", "");
+          }
+          document.getElementById(tabname).style.display = "flex";
+          evt.currentTarget.className += " btn-current";
+        }
+        document.getElementById("tab-default").click();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+::selection {
+    background: var(--dark);
+}
+::placeholder {
+    color: var(--secondary);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    background: url('../res/pattern.png') 50% 0% / 1440px no-repeat var(--black);
+}
+img, picture, video, canvas, svg {
+    display: block;
+    width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    font-synthesis: none;
+}
+p, b, i {
+    text-wrap: pretty;
+    font-synthesis: none;
+}
+a {
+    text-decoration: none;
+}
+ol, ul, li {
+    list-style: none;
+    font-synthesis: none;
+}
+q, blockquote {
+    quotes: none;
+}
